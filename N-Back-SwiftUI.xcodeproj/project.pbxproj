@@ -17,6 +17,10 @@
 		EF0CE3F830923A7600DC9869 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0CE3F730923A7600DC9869 /* GameViewModel.swift */; };
 		EF0CE3FA30923A8200DC9869 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0CE3F930923A8200DC9869 /* HomeView.swift */; };
 		EFE5682B3092410D00CE8D54 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE5682A3092410D00CE8D54 /* GameView.swift */; };
+		EFB1C0DE0001000200DC9869 /* ScoreRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB1C0DE0001000100DC9869 /* ScoreRepository.swift */; };
+		EFB1C0DE0002000200DC9869 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB1C0DE0002000100DC9869 /* SettingsView.swift */; };
+		EFB1C0DE0003000200DC9869 /* ScoreHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB1C0DE0003000100DC9869 /* ScoreHistoryView.swift */; };
+		EFB1C0DE0004000200DC9869 /* ScoreHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB1C0DE0004000100DC9869 /* ScoreHistoryViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		EF0CE3F930923A8200DC9869 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		EFE5682A3092410D00CE8D54 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		EFE568303092411D00CE8D54 /* N-Back-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "N-Back-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB1C0DE0001000100DC9869 /* ScoreRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreRepository.swift; sourceTree = "<group>"; };
+		EFB1C0DE0002000100DC9869 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EFB1C0DE0003000100DC9869 /* ScoreHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreHistoryView.swift; sourceTree = "<group>"; };
+		EFB1C0DE0004000100DC9869 /* ScoreHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreHistoryViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +83,7 @@
 				EBA7C6D12ACB0C0C00585AF6 /* nback.h */,
 				EBA7C6D22ACB0C1800585AF6 /* N-Back-SwiftUI-Bridging-Header.h */,
 				EF0CE3F130923A6300DC9869 /* NBackModel.swift */,
+				EFB1C0DE0001000100DC9869 /* ScoreRepository.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -125,6 +134,8 @@
 				EBD8C0EB2AB9909200DC99B8 /* ContentView.swift */,
 				EF0CE3F930923A8200DC9869 /* HomeView.swift */,
 				EFE5682A3092410D00CE8D54 /* GameView.swift */,
+				EFB1C0DE0003000100DC9869 /* ScoreHistoryView.swift */,
+				EFB1C0DE0002000100DC9869 /* SettingsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -141,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				EF0CE3F730923A7600DC9869 /* GameViewModel.swift */,
+				EFB1C0DE0004000100DC9869 /* ScoreHistoryViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -258,6 +270,10 @@
 				EF0CE3F530923A6500DC9869 /* SpeechService.swift in Sources */,
 				EF0CE3FA30923A8200DC9869 /* HomeView.swift in Sources */,
 				EFE5682B3092410D00CE8D54 /* GameView.swift in Sources */,
+				EFB1C0DE0001000200DC9869 /* ScoreRepository.swift in Sources */,
+				EFB1C0DE0002000200DC9869 /* SettingsView.swift in Sources */,
+				EFB1C0DE0003000200DC9869 /* ScoreHistoryView.swift in Sources */,
+				EFB1C0DE0004000200DC9869 /* ScoreHistoryViewModel.swift in Sources */,
 				EBD8C0EA2AB9909200DC99B8 /* N_Back_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
